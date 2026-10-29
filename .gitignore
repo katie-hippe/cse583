@@ -218,3 +218,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# ignore data for homework one
+homework1/src/hw1_data_analysis/bicycle_data.csv

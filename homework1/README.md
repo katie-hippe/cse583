@@ -28,5 +28,9 @@ https://data.seattle.gov/Transportation/Fremont-Bridge-Hourly-Bicycle-Counts-by-
 - For the python portion, I opened vscode using code .
     - then completed the task requirements
     - used AI in minor ways
-        - googled an example of datetime and matplotlib
-        - I'd used each before but wanted to refresh syntax
+        - googled an example of datetime and plots
+        - I'd used each before but
+
+## datetime:
+
+I used pandas' built-in datetime format. This stores timestampls as an np array of 64-bit integers, and is vectorized to avoid memory overhead for the standard Python datetime object. It is faster than both the datatime.datetime and np.datetime (but pretty comparable to np.datetime) and has built-in timezoning support as well. 
